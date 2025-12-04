@@ -136,8 +136,8 @@ For hands-on practice I used:
 | Day | Topic            | Status |
 |-----|------------------|--------|
 | 1   | Testing Basics   | ✔️ Done |
-| 2   | Test Cases       | ✔️ Done |
-| 3   | Bug Reporting    | ⏳ In progress |
+| 2   | Test Cases       | ⏳ In progress |
+| 3   | Bug Reporting    | ⏳ Planned |
 | 4   | Git for QA       | ⏳ Planned |
 | 5   | Agile & Scrum    | ⏳ Planned |
 
