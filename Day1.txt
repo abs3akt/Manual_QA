@@ -9,3 +9,62 @@ The goal of this project is to practice and document manual testing concepts, in
 
 I will update the project daily with learning progress, practical examples, and testing exercises.
 This marks the start of my journey into Quality Assurance.
+
+Day 1 Plan – Manual QA
+🎯 Goal for today
+
+Set up the project structure and start learning the basics of Manual QA.
+
+📌 Tasks
+
+Repository Setup
+
+Create GitHub repository: Manual_QA
+
+Add README file with project description
+
+Create project folders (Examples, Theory, Test_Cases, Bugs)
+
+Install / prepare tools
+
+Install Git (if not already)
+
+Create Git configuration (.gitconfig)
+
+Set up text editor (VS Code / Sublime)
+
+Learn Theory
+
+What is software testing?
+
+Types of testing: Manual vs Automation
+
+Basic testing concepts:
+
+Test case
+
+Bug / defect
+
+Requirement
+
+Test plan
+
+Testing levels (Unit, Integration, System, Acceptance)
+
+Create notes
+
+Write short notes on concepts learned
+
+Save notes in your repository
+
+🚀 Result
+
+By the end of Day 1 I'll have:
+
+A clean repository
+
+Basic understanding of Manual QA
+
+Notes saved and organized
+
+My first commit on GitHub
