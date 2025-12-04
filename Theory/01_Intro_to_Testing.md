@@ -47,13 +47,8 @@ Software testing is the process of evaluating and verifying that a software prod
 
 ---
 
-## ✔ Summary
 
-Testing is not about “breaking” software, but about ensuring that it works correctly, meets user needs, and maintains high quality.
-
----
-
-🧠 Golden Rule (Junior QA Git Flow)
+## 🧠 Golden Rule (Junior QA Git Flow)
 
 Memorize this workflow:
 
@@ -68,14 +63,18 @@ If you see "rejected" → use:
 git pull --rebase origin main
 git push
 
-✔️ What if you edited something directly on GitHub?
+---
+
+## ✔️ What if you edited something directly on GitHub?
 
 You now have online commits + local commits → a rebase is required:
 
 git pull --rebase origin main
 git push
 
-⚠️ Important
+---
+
+## ⚠️ Important
 
 Do NOT use:
 
@@ -84,3 +83,11 @@ git push --force
 
 as a beginner.
 It can overwrite other people’s work or delete commits from the repository.
+
+---
+
+## ✔ Summary
+
+Testing is not about “breaking” software, but about ensuring that it works correctly, meets user needs, and maintains high quality.
+
+---
