@@ -23,28 +23,51 @@ By following this learning plan I aim to:
 ## 📂 Repository Structure
 Manual_QA/
 │
+
 ├─ README.md
+
 ├─ Theory/
+
 │ ├─ 01_Intro_to_Testing.md
+
 │ ├─ 02_Test_Cases.md
+
 │ ├─ 03_Bug_Reporting.md
+
 │ ├─ 04_Git_for_QA.md
+
 │ ├─ 05_Agile_Scrum.md
+
 │
+
 ├─ Templates/
+
 │ ├─ Test_Case_Template.md
+
 │ ├─ Bug_Report_Template.md
+
 │ ├─ Checklist_Template.md
+
 │
+
 ├─ Practice/
+
 │ ├─ Day1_Notes.md
+
 │ ├─ Day2_TestCases.md
+
 │ ├─ Day3_BugReports.md
+
 │
+
 └─ Exercises/
+
 ├─ login_feature.md
+
 ├─ signup_feature.md
+
 ├─ checkout_feature.md
+
 
 
 ## 🗓 Learning Flow (daily tasks)
