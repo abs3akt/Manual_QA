@@ -1,0 +1,11 @@
+Today I created the repository Manual_QA and initialized the project structure.
+The goal of this project is to practice and document manual testing concepts, including:
+
+- Testing theory
+- Test case creation
+- Bug reporting
+- Testing techniques
+- Tools used in manual QA
+
+I will update the project daily with learning progress, practical examples, and testing exercises.
+This marks the start of my journey into Quality Assurance.
