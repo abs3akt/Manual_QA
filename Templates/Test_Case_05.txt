@@ -1,0 +1,27 @@
+ID: TC_LOGIN_005
+Title: Login with empty password 
+Module Login page
+Priority: High
+
+
+Precondition:
+-User is on login page
+
+
+Test Data:
+- Username: standard_user
+- Password: <empty>
+
+
+Steps:
+1. Open login page
+2. Enter "standard_user" in the field username
+3. Leave <empty> field password
+4. Click "LOGIN" button
+
+
+Expected Result:
+
+- Login: Failed
+- Error message: "Epic sadface: Password is required"
+- Iput field for password is highlighted

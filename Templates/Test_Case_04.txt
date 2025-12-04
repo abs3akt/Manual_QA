@@ -1,0 +1,23 @@
+ID: TC_LOGIN_004
+Title: Login with invalid username
+Module: login page
+Priority: Medium
+
+Precondition:
+- User is on login page
+
+Test Data:
+Username: InvalidUsername
+Password: secret_sauce
+
+Steps to reproduce:
+1. open login page https://www.saucedemo.com
+2. Enter "InvalidUsername" in the username field
+3. Enter "secret_sauce" in the password field
+4. Click the "LOGIN" button
+
+Expected Result:
+
+- Login: Failed
+- Error message: "Epic sadface: Username and password do not match any user in this service"
+- Input field for username is highlighted red

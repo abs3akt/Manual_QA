@@ -1,0 +1,25 @@
+ID: TC_Login_008
+Title: Login with <empty> password field 
+Module: Login page
+
+Priority: High
+
+Precondition: User is on Login page
+
+Test Data:
+- Username: standard_user
+- Password: <empty>
+
+Steps:
+1. Open https://www.saucedemo.com
+2. Enter "standard_user" in the username field
+3. Leave <empty> password field
+4. Click "LOGIN" Button
+
+
+Expected Result:
+
+- Login: failed
+- Error message: "Epic sadface: Username and password do not match any user in this service"
+- User is not logged in
+- No data exposure

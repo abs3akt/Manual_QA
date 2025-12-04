@@ -1,0 +1,29 @@
+ID: TC_LOGIN_001
+Title: Login with valid credentials
+Module: Login Page
+
+Preconditions:
+- User is on login page
+- Internet connection active
+- AdBlock disabled
+
+Test Data:
+Username: standard_user
+Password: secret_sauce
+
+Steps to Reproduce:
+1. Open http://www.saucedo.com
+2. Enter "standard_user" in the Username field
+3. Enter "secret_sauce" in the Password field
+4. Click the "LOGIN" button
+
+Expected Result:
+- User is successfully logged in
+- User is redirected to the Products page
+- URL contains "/inventory.html"
+
+Postcondition:
+- User is authenticated and session is active
+
+Priority High
+Comments: Basic login scenario

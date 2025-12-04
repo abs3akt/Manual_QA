@@ -1,0 +1,24 @@
+ID: TC_LOGIN_007
+Title: Login bypass using SQL Injcetion ' OR '1'='1 
+Module: Login Page
+Priority: High
+
+Precondition: User is on Login page
+
+Test DATA:
+- Username: ' OR '1'='1
+- Password: anything (or ' OR '1'='1 as well)
+
+
+Steps
+1. Open Login Page
+2. Enter ' OR '1'='1 In username field 
+3. Enter anythingin password field
+4. Click "LOGIN" Button
+
+Expected Result:
+
+- Login: failed
+- Error message: "Epic sadface: Username and password do not match any user in this service"
+- User is not logged in
+- No data exposure

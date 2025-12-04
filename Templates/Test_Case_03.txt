@@ -1,0 +1,24 @@
+ID: TC_LOGIN_003
+Title: Login without username
+Module: Login Page
+Priority: High
+
+Preconditions:
+- User is on login page
+
+Test Data:
+Username: <empty>
+Password: secret_sauce
+
+Steps:
+1. Open login page
+2. Leave username empty
+3. Enter valid password
+4. Click Login
+
+Excepted Result:
+
+- Login: Failed
+- Error message:
+"Epic sadface: Username is required"
+- Input field or username is highlighted
