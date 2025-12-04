@@ -1,1 +1,1 @@
-# Intro to Testing
+# Intro to Software Testing
